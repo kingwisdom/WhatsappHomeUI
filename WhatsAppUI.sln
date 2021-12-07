@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppUI.Android", "WhatsAppUI\WhatsAppUI.Android\WhatsAppUI.Android.csproj", "{6163AC51-DD12-4EEC-9885-C97F936D3F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppUI", "WhatsAppUI\WhatsAppUI\WhatsAppUI.csproj", "{8C76957F-F2A2-48A1-A640-8D5A3D69B70F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6163AC51-DD12-4EEC-9885-C97F936D3F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6163AC51-DD12-4EEC-9885-C97F936D3F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6163AC51-DD12-4EEC-9885-C97F936D3F48}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6163AC51-DD12-4EEC-9885-C97F936D3F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6163AC51-DD12-4EEC-9885-C97F936D3F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6163AC51-DD12-4EEC-9885-C97F936D3F48}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8C76957F-F2A2-48A1-A640-8D5A3D69B70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C76957F-F2A2-48A1-A640-8D5A3D69B70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C76957F-F2A2-48A1-A640-8D5A3D69B70F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8C76957F-F2A2-48A1-A640-8D5A3D69B70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C76957F-F2A2-48A1-A640-8D5A3D69B70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C76957F-F2A2-48A1-A640-8D5A3D69B70F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8290F38-7BE6-46F7-ADFB-CC57D7292A10}
+	EndGlobalSection
+EndGlobal

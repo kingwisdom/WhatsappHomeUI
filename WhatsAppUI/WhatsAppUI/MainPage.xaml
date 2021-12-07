@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WhatsAppUI.MainPage">
+
+    <Grid RowDefinitions="Auto, *">
+
+        <StackLayout BackgroundColor="#075e54">
+            <Grid ColumnDefinitions="*,Auto,Auto" ColumnSpacing="20" Margin="20,20">
+                <Label Text="WhatsApp" TextColor="White" FontSize="18" />
+                <Label Grid.Column="1" FontFamily="material" FontSize="24" Text="&#x000f0935;" TextColor="White" HorizontalOptions="End" />
+                <Label FontFamily="material" FontSize="24" Text="&#x000f01d9;" Grid.Column="2" TextColor="White" HorizontalOptions="End" />
+            </Grid>
+
+            <Grid ColumnDefinitions="Auto,*,*,*" ColumnSpacing="15" Margin="0,0,0,10">
+                <Label FontFamily="material" FontSize="24" Text="&#x000f0100;" TextColor="#FEFEFE" VerticalOptions="Center" />
+
+                <StackLayout Orientation="Horizontal" Grid.Column="1">
+                    <Label Text="CHATS" TextColor="#FFF" FontSize="16" Grid.Column="1" />
+                    <Frame Padding="2" WidthRequest="12" HeightRequest="12"  CornerRadius="10" VerticalOptions="Start">
+                        <Label Text="3" FontSize="9" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+                    </Frame>
+                </StackLayout>
+                <Label Text="STATUS" TextColor="#FFF" FontSize="16" Grid.Column="2" />
+                <Label Text="CALLS" TextColor="#FFF" FontSize="16" Grid.Column="3" />
+            </Grid>
+            <BoxView HeightRequest="2" BackgroundColor="White" WidthRequest="70" HorizontalOptions="Start" Margin="40,-2,0,0" />
+        </StackLayout>
+
+        <Grid Grid.Row="1" Margin="0">
+            <ScrollView>
+                <StackLayout>
+                    <StackLayout Margin="20,10">
+                        <Grid ColumnDefinitions="Auto,*,Auto">
+                            <Frame Padding="0" WidthRequest="70" HeightRequest="70"  CornerRadius="35" VerticalOptions="Start">
+                                <Image Source="https://www.naijatech360.com.ng/wp-content/uploads/2019/11/Whatapp-group.png" Aspect="Fill" />
+                            </Frame>
+
+                            <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                <Label Text="The Grace of God" TextColor="Black" FontAttributes="Bold" />
+                                <Label Text="lol... nobody here is serious, a..." />
+                            </StackLayout>
+                            <StackLayout Grid.Column="2">
+                                <Label Text="today" TextColor="Green" FontSize="12"  />
+                                <Frame Padding="3" WidthRequest="20" BackgroundColor="Green" HeightRequest="20"  CornerRadius="17" VerticalOptions="Start">
+                                    <Label Text="8" FontSize="9"  TextColor="#FFF" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+                                </Frame>
+                            </StackLayout>
+                        </Grid>
+                        <BoxView BackgroundColor="LightGray" Opacity="0.5" HeightRequest="1" WidthRequest="250" HorizontalOptions="End" />
+                    </StackLayout>
+                    <StackLayout Margin="20,10">
+                        <Grid ColumnDefinitions="Auto,*,Auto">
+                            <Frame Padding="0" WidthRequest="70" HeightRequest="70"  CornerRadius="35" VerticalOptions="Start">
+                                <Image Source="https://www.verywellmind.com/thmb/h1AsYlAO-1ttZpHXb4GrxFwszsI=/2578x2578/smart/filters:no_upscale()/514351083-56a796105f9b58b7d0ebefc9.jpg" Aspect="Fill" />
+                            </Frame>
+
+                            <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                <Label Text="Buddy..." TextColor="Black" FontAttributes="Bold" />
+                                <Label Text="thank you dear" />
+                            </StackLayout>
+                            <StackLayout Grid.Column="2">
+                                <Label Text="" TextColor="Black" />
+                                <Label Text="19:20" FontSize="12" TextColor="Black" />
+                            </StackLayout>
+                        </Grid>
+                        <BoxView BackgroundColor="LightGray" Opacity="0.5" HeightRequest="1" WidthRequest="250" HorizontalOptions="End" />
+                    </StackLayout>
+                    <StackLayout Margin="20,10">
+                        <Grid ColumnDefinitions="Auto,*,Auto">
+                            <Frame Padding="0" WidthRequest="70" HeightRequest="70"  CornerRadius="35" VerticalOptions="Start">
+                                <Image Source="joy.png" Aspect="Fill" />
+                            </Frame>
+
+                            <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                <Label Text="+23481233445" TextColor="Black" FontAttributes="Bold" />
+                                <Label Text="i need the money" />
+                            </StackLayout>
+
+                            <StackLayout Grid.Column="2">
+                                <Label Text="today" TextColor="Green" FontSize="12"  />
+                                <Frame Padding="3" WidthRequest="20" BackgroundColor="Green" HeightRequest="20"  CornerRadius="17" VerticalOptions="Start">
+                                    <Label Text="3" FontSize="9"  TextColor="#FFF" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+                                </Frame>
+                            </StackLayout>
+                        </Grid>
+                        <BoxView BackgroundColor="LightGray" Opacity="0.5" HeightRequest="1" WidthRequest="250" HorizontalOptions="End" />
+                    </StackLayout>
+                    <StackLayout Margin="20,10">
+                        <Grid ColumnDefinitions="Auto,*,Auto">
+                            <Frame Padding="0" WidthRequest="70" HeightRequest="70"  CornerRadius="35" VerticalOptions="Start">
+                                <Image Source="https://m.media-amazon.com/images/I/61qbMuyPEBL._SX425_.jpg" Aspect="Fill" />
+                            </Frame>
+
+                            <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                <Label Text="Charity Organisation" TextColor="Black" FontAttributes="Bold" />
+                                <Label Text="thank you so much" />
+                            </StackLayout>
+                            <StackLayout Grid.Column="2">
+                                <Label Text="today" FontSize="12" TextColor="Black" />
+                                <Frame Padding="3" WidthRequest="20" BackgroundColor="Green" HeightRequest="20"  CornerRadius="117" VerticalOptions="Start">
+                                    <Label Text="23" FontSize="9"  TextColor="#FFF" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+                                </Frame>
+                            </StackLayout>
+                        </Grid>
+                        <BoxView BackgroundColor="LightGray" Opacity="0.5" HeightRequest="1" WidthRequest="250" HorizontalOptions="End" />
+                    </StackLayout>
+                    <StackLayout Margin="20,10">
+                        <Grid ColumnDefinitions="Auto,*,Auto">
+                            <Frame Padding="0" WidthRequest="70" HeightRequest="70"  CornerRadius="35" VerticalOptions="Start">
+                                <Image Source="https://bg3-blog.s3.amazonaws.com/blog/wp-content/uploads/2017/11/17142808/ChristmasJoy.jpg" Aspect="Fill" />
+                            </Frame>
+
+                            <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                <Label Text="+234 81 344 223" TextColor="Black" FontAttributes="Bold" />
+                                <Label Text="hummmmm...." />
+                            </StackLayout>
+                            <StackLayout Grid.Column="2">
+                                <Label Text="" TextColor="Black" />
+                                <Label Text="19:20" FontSize="12" TextColor="Black" />
+                            </StackLayout>
+                        </Grid>
+                        <BoxView BackgroundColor="LightGray" Opacity="0.5" HeightRequest="1" WidthRequest="250" HorizontalOptions="End" />
+                    </StackLayout>
+
+                    <StackLayout Margin="20,10">
+                        <Grid ColumnDefinitions="Auto,*,Auto">
+                            <Frame Padding="0" WidthRequest="70" HeightRequest="70"  CornerRadius="35" VerticalOptions="Start">
+                                <Image Source="https://i.ytimg.com/vi/tVlcKp3bWH8/maxresdefault.jpg" Aspect="Fill" />
+                            </Frame>
+
+                            <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                <Label Text="+234 81 3444223" TextColor="Black" FontAttributes="Bold" />
+                                <Label Text="Adeoye Temitayo" />
+                            </StackLayout>
+                            <StackLayout Grid.Column="2">
+                                <Label Text="" TextColor="Black" />
+                                <Label Text="05:09 am" FontSize="12" TextColor="Black" />
+                            </StackLayout>
+                        </Grid>
+                        <BoxView BackgroundColor="LightGray" Opacity="0.5" HeightRequest="1" WidthRequest="250" HorizontalOptions="End" />
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </Grid>
+</ContentPage>
